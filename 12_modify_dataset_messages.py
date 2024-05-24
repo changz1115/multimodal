@@ -25,6 +25,7 @@ modified_dataset['train'] = modified_dataset['train'].map(
     with_indices=True
 )
 
+# 另存一个名字并再次磁盘读取新的模型验证是否保存成功
 modified_dataset.save_to_disk("changzheng/demodataset")
 loaded_modified_dataset = DatasetDict.load_from_disk("changzheng/demodataset")
 

@@ -12,6 +12,8 @@ conda install jupyter
 ```shell
 # huggingface_hub
 pip install huggingface_hub
+
+# 可以环境登录 或者 python 代码中登录
 huggingface-cli login
 ```
 
