@@ -45,3 +45,5 @@ image = Image.open('images/sample_2_image_0.jpg')
 print(image.format)  # 图片格式
 print(image.size)    # 图片尺寸
 print(image.mode)    # 图片模式
+
+image.show()  # 显示图片
