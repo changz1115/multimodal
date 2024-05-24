@@ -39,12 +39,9 @@ for i, sample in enumerate(train_dataset):
 from PIL import Image
 
 # 打开 JPG 图片文件
-image = Image.open('example.jpg')
+image = Image.open('images/sample_2_image_0.jpg')
 
 # 显示图片信息
 print(image.format)  # 图片格式
 print(image.size)    # 图片尺寸
 print(image.mode)    # 图片模式
-
-# 可选：显示图片
-image.show()
