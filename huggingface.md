@@ -24,4 +24,5 @@ pip install datasets[audio]
 
 # vision
 pip install datasets[vision]
+pip install Pillow
 ```
