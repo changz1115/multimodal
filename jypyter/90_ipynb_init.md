@@ -25,7 +25,7 @@ passwd()
 # 允许远程访问
 # 不使用本地浏览器打开
 # 允许所有IP访问
-# 配置密码 上面的hash值
+# 配置密码 上面的hash值 或者 下面这个sample 也就是 212121
 c.NotebookApp.allow_remote_access = True
 c.NotebookApp.open_browser = False
 c.NotebookApp.ip='*'
