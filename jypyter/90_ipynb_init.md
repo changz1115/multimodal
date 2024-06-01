@@ -26,6 +26,12 @@ passwd()
 # 不使用本地浏览器打开
 # 允许所有IP访问
 # 配置密码 上面的hash值 或者 下面这个sample 也就是 212121
+
+c.ServerApp.allow_remote_access = True
+c.ServerApp.open_browser = False
+c.ServerApp.ip='*'
+c.ServerApp.password = 'argon2:$argon2id$v=19$m=10240,t=10,p=8$MAWO98xW1erTnY8AcRiF3Q$FEz7AZpG/jryQGEmaR70oB9Hs2+alUrSn8+sPUEgVsw'
+
 c.NotebookApp.allow_remote_access = True
 c.NotebookApp.open_browser = False
 c.NotebookApp.ip='*'
@@ -36,4 +42,5 @@ c.NotebookApp.password = 'argon2:$argon2id$v=19$m=10240,t=10,p=8$MAWO98xW1erTnY8
 # 带IP启动
 jupyter-lab --allow-root --ip=10.1.147.25
 jupyter-lab --allow-root --ip=10.1.147.52
+jupyter-lab --allow-root --ip=10.0.0.16
 ```
