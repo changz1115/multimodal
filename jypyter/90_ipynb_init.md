@@ -42,5 +42,5 @@ c.NotebookApp.password = 'argon2:$argon2id$v=19$m=10240,t=10,p=8$MAWO98xW1erTnY8
 # 带IP启动
 jupyter-lab --allow-root --ip=10.1.147.25
 jupyter-lab --allow-root --ip=10.1.147.52
-jupyter-lab --allow-root --ip=10.0.0.16
+jupyter-lab --allow-root --ip=10.0.0.17
 ```
