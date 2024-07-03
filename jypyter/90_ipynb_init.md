@@ -44,3 +44,8 @@ jupyter-lab --allow-root --ip=10.1.147.25
 jupyter-lab --allow-root --ip=10.1.147.52
 jupyter-lab --allow-root --ip=10.0.0.17
 ```
+
+```shell
+cat /root/neusoft.crt >> /root/anaconda3/envs/ms/lib/python3.10/site-packages/certifi/cacert.pem
+swift deploy --host 10.0.0.7 --model_type glm4v-9b-chat
+```
